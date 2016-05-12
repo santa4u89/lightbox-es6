@@ -1,0 +1,5 @@
+{% set data = {
+    title: "Awesome Gulp dev stack!!!",
+    subtitle: "<h2>A simple Gulp.js dev stack</h2>",
+    btnText: "Click me!"
+} %}

@@ -1,0 +1,18 @@
+{% extends "./layout/default.nunj" %}
+{% from "./partials/components/buttons.nunj" import btnLink as link, btnPrimary as primary, btnSecondary as secondary, btnSuccess as success %}
+{% set data = {
+    title: 'Gulp dev stack'
+} %}
+
+{% block content %}
+<h1>{{ data.title }}</h1>
+{{ link('Link') }}
+{{ primary('Primary') }}
+{{ secondary('Secondary') }}
+{{ success('Success') }}
+
+<div class="alert">foo
+    <hr>
+    <div class="alert-link">foo link</div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+*.sublime-*
+
+# npm
+/node_modules/
+npm-debug.log
+
+# bower
+/src/bower_components/
+
+# app
+/src/css
+/src/js
+/src/*.html
+
+# dist
+/dist

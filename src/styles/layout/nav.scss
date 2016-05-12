@@ -1,0 +1,23 @@
+.main-nav {
+    height: $nav-height;
+
+    &__list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    &__link {
+        padding: 0 1rem;
+        color: #fff;
+        text-decoration: none;
+        transition: color .4s ease;
+
+        &:hover {
+            color: darken($header-bg, 30%);
+        }
+    }
+}

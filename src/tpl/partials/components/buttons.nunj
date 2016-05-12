@@ -1,0 +1,15 @@
+{% macro btnPrimary(class='btn btn-primary', text) %}
+<button type="button" class="{{ class }}" href="{{ href }}">{{ text }}</button>
+{% endmacro %}
+
+{% macro btnSecondary(class='btn btn-secondary', text) %}
+<button type="button" class="{{ class }}" href="{{ href }}">{{ text }}</button>
+{% endmacro %}
+
+{% macro btnSuccess(class='btn btn-success', text) %}
+<button type="button" class="{{ class }}" href="{{ href }}">{{ text }}</button>
+{% endmacro %}
+
+{% macro btnLink(class='btn btn-link', text) %}
+<button type="button" class="{{ class }}" href="{{ href }}">{{ text }}</button>
+{% endmacro %}
