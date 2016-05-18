@@ -1,9 +1,0 @@
-<nav class="main-nav">
-    <ul class="main-nav__list container">
-        <li class="main-nav__item"><a class="main-logo" href="#">{{ icon('gulp-logo', 'main-logo__svg-logo') }}</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Grid</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Typography</a></li>
-        <li class="main-nav__item"><a class="main-nav__link" href="#">Forms</a></li>
-    </ul>
-</nav>

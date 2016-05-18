@@ -8,7 +8,7 @@ import config from '../config';
 const { gulpfile, src, dist} = config.paths;
 // For production (minified files) run "gulp --prod"
 const isProd = argv.prod || false;
-const bsPort = 4857;
+const bsPort = 1234;
 
 gulp.task('serve', ['prepare'], () => {
     browserSync({
